@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Kiwi+Maru&display=swap');
+
+html {
+    background-color: #DFF8F4;
+}
+body {
+    background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: Fredoka, Helvetica, sans-serif;
+    color: #193F45;
+    border-style: none solid;
+    border-width: 5px;
+    border-color: white;
+    font-size: 1.3em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kiwi Maru', Georgia, serif;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5em;
+    margin: auto 50px;
+}
+h2 {
+    margin: 0 0 1em 0;
+}
+
+header {
+    background-color: #F2D1A5;
+    display: grid;
+    grid-template-columns: 200px auto;
+    justify-content: space-between;
+    border-bottom: 5px solid white;
+    padding: 60px;
+}
+header img {
+    max-width: 100%;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+main {
+    border: 5px dashed #D16D64;
+    border-style: dashed none;
+}
+section {
+    background-color: #DFF8F4;
+    margin: 4em;
+    padding: 2.5em;
+    border-radius: 2em;
+    justify-content: center;
+}
+footer {
+    background-color: #F2D1A5;
+    font-size: .8em;
+    border-top: 5px solid white;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+ul {
+    margin: 0 4em;
+}
+a {
+    color: #D16D64;
+    text-decoration: none;
+    font-weight: bold;
+}
+.white {
+    color: white;
+}
