@@ -19,25 +19,34 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 h1 {
-    font-size: 2.5em;
-    margin: auto 50px;
+    font-size: 1.5em;
+    margin: 0 .5em;
 }
 h2 {
+    font-size: 1.2em;
     margin: 0 0 1em 0;
 }
 
 header {
     background-color: #F2D1A5;
-    display: grid;
-    grid-template-columns: 200px auto;
-    justify-content: space-between;
     border-bottom: 5px solid white;
-    padding: 60px;
+    padding: 50px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 60px;
+    justify-content: center;
+}
+.name {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto 50px;
+    align-content: center;
 }
 header img {
-    max-width: 100%;
+    max-width: 200px;
     border: 5px solid white;
     border-radius: 20px;
+    margin: 0 auto;
 }
 main {
     border: 5px dashed #D16D64;
@@ -45,23 +54,26 @@ main {
 }
 section {
     background-color: #DFF8F4;
-    margin: 4em;
-    padding: 2.5em;
-    border-radius: 2em;
+    padding: 1.5em;
     justify-content: center;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+li {
+    font-size: .8em;
 }
 footer {
     background-color: #F2D1A5;
-    font-size: .8em;
     border-top: 5px solid white;
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
+    text-align: center;
     padding: 0 1em;
+    padding-bottom: 1px;
+    font-size: .8em;
 }
 
 ul {
-    margin: 0 4em;
+    width: fit-content;
+    margin: 0 auto;
 }
 a {
     color: #D16D64;
@@ -70,4 +82,5 @@ a {
 }
 .white {
     color: white;
+    margin: auto 0;
 }

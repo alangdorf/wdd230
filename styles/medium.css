@@ -1,0 +1,33 @@
+@media only screen and (min-width: 32.5em) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    header {
+        grid-template-columns: 200px auto;
+        grid-gap: 0;
+        justify-content: space-between;
+        padding: 60px;
+    }
+    header img {
+        max-width: 100%;
+    }
+    section {
+        margin: 4em;
+        padding: 2.5em;
+        border-radius: 2em;
+        border-style: none;
+    }
+    li {
+        font-size: 1em;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        font-size: 1em;
+        padding-bottom: 0;
+    }
+}
