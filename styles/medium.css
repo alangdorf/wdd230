@@ -14,7 +14,10 @@
     header img {
         max-width: 100%;
     }
-    section {
+    .hr {
+        --repeat: 15;
+    }
+    main {
         margin: 4em;
         padding: 2.5em;
         border-radius: 2em;

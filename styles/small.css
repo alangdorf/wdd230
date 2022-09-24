@@ -48,11 +48,58 @@ header img {
     border-radius: 20px;
     margin: 0 auto;
 }
-main {
-    border: 5px dashed #D16D64;
-    border-style: dashed none;
+.hr { /*the actual <hr> element didn't work for this so I just had to use a div lol*/
+    height: 5px;
+    width: 100%;
+    --repeat: 10;
+    --dash-length: calc((100% - ((var(--repeat) - 1) * 13px) - 6px) / var(--repeat));
+
+    background: radial-gradient(circle at 3px 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(var(--dash-length) + 3px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(var(--dash-length) + 16px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(2 * (var(--dash-length)) + 16px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(2 * (var(--dash-length)) + 29px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(3 * (var(--dash-length)) + 29px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(3 * (var(--dash-length)) + 42px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(4 * (var(--dash-length)) + 42px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(4 * (var(--dash-length)) + 55px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(5 * (var(--dash-length)) + 55px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(5 * (var(--dash-length)) + 68px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(6 * (var(--dash-length)) + 68px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(6 * (var(--dash-length)) + 81px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(7 * (var(--dash-length)) + 81px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(7 * (var(--dash-length)) + 94px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(8 * (var(--dash-length)) + 94px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(8 * (var(--dash-length)) + 107px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(9 * (var(--dash-length)) + 107px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(9 * (var(--dash-length)) + 120px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(10 * (var(--dash-length)) + 120px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(10 * (var(--dash-length)) + 133px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(11 * (var(--dash-length)) + 133px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(11 * (var(--dash-length)) + 146px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(12 * (var(--dash-length)) + 146px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(12 * (var(--dash-length)) + 159px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(13 * (var(--dash-length)) + 159px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(13 * (var(--dash-length)) + 172px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(14 * (var(--dash-length)) + 172px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(14 * (var(--dash-length)) + 185px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(15 * (var(--dash-length)) + 185px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(15 * (var(--dash-length)) + 198px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(16 * (var(--dash-length)) + 198px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(16 * (var(--dash-length)) + 211px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(17 * (var(--dash-length)) + 211px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(17 * (var(--dash-length)) + 224px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(18 * (var(--dash-length)) + 224px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(18 * (var(--dash-length)) + 237px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(19 * (var(--dash-length)) + 237px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(19 * (var(--dash-length)) + 250px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        radial-gradient(circle at calc(20 * (var(--dash-length)) + 250px) 50%, #D16D64 0 2.5px, rgba(0, 0, 0, 0) 3px),
+        repeating-linear-gradient(to right,
+            rgba(0, 0, 0, 0) 0 3px,
+            #D16D64 3px calc(var(--dash-length) + 3px),
+            rgba(0, 0, 0, 0) calc(var(--dash-length) + 3px) calc(var(--dash-length) + 13px));
 }
-section {
+main {
     background-color: #DFF8F4;
     padding: 1.5em;
     justify-content: center;
@@ -74,6 +121,7 @@ footer {
 ul {
     width: fit-content;
     margin: 0 auto;
+    padding-left: .8em;
 }
 a {
     color: #D16D64;
