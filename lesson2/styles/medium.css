@@ -1,0 +1,38 @@
+@media only screen and (min-width: 480px) {
+    body {
+        font-size: 18px;
+    }
+    header, footer {
+        padding: .7rem 1rem;
+    }
+    header {
+        padding-bottom: 1rem;
+        padding-top: 1.2rem;
+    }
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1.5rem;
+        padding: 1.5rem;
+        padding-top: 2rem;
+    }
+    section {
+        margin-bottom: .5rem;
+    }
+    .content {
+        padding: .7rem 1.5rem;
+    }
+    h3 {
+        padding: 2rem 1.5rem 1.2rem 1.5rem;
+    }
+    .third {
+        grid-column: 1 / span 2;
+    }
+    .image-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    section img {
+        margin: .7rem 0;
+    }
+}
