@@ -1,0 +1,49 @@
+@media only screen and (min-width: 35em) {
+    .small {
+        display: none;
+    }
+    .medium {
+        display: block;
+    }
+    span.medium {
+        display: inline;
+    }
+    #logoTitleBox img {
+        max-width: 80px;
+    }
+    #logoTitleBox h1 {
+        font-size: 2em;
+    }
+    #buttonBox button {
+        margin-right: 20px;
+        margin-left: 12px;
+    }
+    main {
+        grid-template-columns: 3fr 2fr;
+    }
+    #spotlight {
+        grid-template-columns: 1fr 1fr;
+    }
+    #hero, #spotlight, #news, #join {
+        grid-column: span 2;
+    }
+    #event, #weather {
+        grid-row: 5;
+    }
+    footer > div {
+        display: flex;
+        justify-content: space-between;
+        margin: 4px;
+    }
+    footer img {
+        margin: 0 -10px 0 10px;
+    }
+    #address {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+    #contact {
+        text-align: right;
+    }
+}
