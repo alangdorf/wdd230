@@ -41,6 +41,7 @@
     main {
         grid-template-columns: 1fr 2fr 1fr;
         padding: 3rem;
+        max-width: 100%;
     }
     #hero {
         grid-column: 2 / 3;

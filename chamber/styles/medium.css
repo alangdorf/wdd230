@@ -20,9 +20,15 @@
     }
     main {
         grid-template-columns: 3fr 2fr;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    section {
+        padding: 1.5rem;
     }
     #spotlight {
         grid-template-columns: 1fr 1fr;
+        padding: 1rem;
     }
     #hero, #spotlight, #news, #join {
         grid-column: span 2;
@@ -45,5 +51,18 @@
     }
     #contact {
         text-align: right;
+    }
+
+    #banner {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    #hero .item-box {
+        bottom: 3rem;
+    }
+    .main-button {
+        font-size: 1.5rem;
     }
 }
