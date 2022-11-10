@@ -131,10 +131,7 @@ nav ul.open {
 nav a {
     display: block;
     color: #EDF7E9;
-}
-
-nav a.active {
-    background-color: #787890;
+    padding: .8rem;
 }
 nav a:hover {
     background-color: #738996;
@@ -291,4 +288,27 @@ td {
 }
 .subtitle {
     text-align: center;
+}
+
+.image-column {
+    display: grid;
+    grid-gap: 16px;
+}
+figure {
+    padding: 8px;
+    margin: 0;
+}
+figure img {
+    margin-bottom: 16px;
+}
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+.image-column img {
+    max-width: 100%;
+}
+
+.strike {
+    text-decoration: line-through;
 }

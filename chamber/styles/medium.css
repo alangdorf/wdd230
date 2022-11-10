@@ -19,9 +19,11 @@
         margin-left: 12px;
     }
     main {
-        grid-template-columns: 3fr 2fr;
         max-width: 800px;
         margin: 0 auto;
+    }
+    main.home {
+        grid-template-columns: 3fr 2fr;
     }
     section {
         padding: 1.5rem;
@@ -67,5 +69,22 @@
     }
     .main-button {
         font-size: 1.5rem;
+    }
+
+    .discover-column {
+        padding: 2rem;
+    }
+    .image-column {
+        grid-gap: 8px;
+    }
+    figure {
+        padding: 20px 20px 16px 20px;
+    }
+    .image-column img {
+        transition: box-shadow 0.5s;
+    }
+    .image-column img:hover {
+        box-shadow: 4px 6px 4px rgba(133, 107, 130, 0.9);
+        transition: box-shadow 0.5s;
     }
 }

@@ -3,9 +3,17 @@
         display: block;
     }
     main {
-        grid-template-columns: 1fr 2fr 1fr;
         margin: 0 auto;
         max-width: 1104px;
+    }
+    main.home {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    main.discover {
+        grid-template-columns: 3fr 2fr;
+    }
+    .discover-column {
+        padding: 3rem;
     }
     #hero {
         grid-column: 2 / 3;
