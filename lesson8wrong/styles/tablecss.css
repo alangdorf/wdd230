@@ -1,0 +1,90 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+h1 {
+    grid-column: 2;
+    text-align: center;
+    margin-top: .3em;
+}
+.yaxis {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+th, td {
+    padding: .4em .5em .2em .5em;
+}
+table, th, td {
+    border: 1px solid darkslateblue;
+}
+table {
+    border-collapse: collapse;
+    background-color: white;
+    color: darkslateblue;
+    grid-column: 2;
+}
+html {
+    background-color: darkslateblue;
+    color: white;
+}
+th {
+    background-color: rgb(182, 210, 244);
+    border-right: 2px solid darkslateblue;
+}
+.xaxis, .yaxis {
+    background-color: rgb(98, 120, 199);
+    color: white;
+}
+tr:nth-child(odd) td {
+    background-color: rgb(225, 240, 253);
+}
+tr:nth-child(2) th {
+    border-bottom: 2px solid darkslateblue;
+}
+tr:first-child th, tr:nth-child(2) th, tr:nth-child(3) th:first-child {
+    border-right: 1px solid darkslateblue;
+}
+
+
+.empty, .obsolete, tr:nth-child(odd) td.empty {
+    background-color: darkslateblue;
+}
+.obsolete {
+    color: white;
+    padding: .3em .3em;
+}
+.tenten th {
+    background-color: plum;
+    color: purple;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+div.legend {
+    display: grid;
+    grid-template-columns: 1em auto;
+    margin: 1em auto;
+    grid-column: 2;
+}
+div.tenten {
+    background-color: plum;
+}
+.maru th {
+    background-color: pink;
+    color: mediumvioletred;
+}
+div.maru {
+    background-color: pink;
+}
+div.maru, div.tenten {
+    height: 1em;
+    align-self: center;
+}
+p {
+    margin: 0 0 0 .5em;
+}
+span {
+    text-align: center;
+}

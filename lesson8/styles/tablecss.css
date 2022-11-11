@@ -1,0 +1,27 @@
+html {
+    color: darkslateblue;
+}
+table, th, td {
+    border: 1px solid darkslateblue;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    padding: .5em;
+}
+th {
+    background-color: rgb(158, 188, 244);
+}
+[scope="colgroup"], tr:nth-child(even) td.highlight {
+    background-color: darkslateblue;
+    color: white;
+}
+tr:nth-child(even) td {
+    background-color: rgb(225, 240, 253);
+}
+caption {
+    caption-side: bottom;
+    font-size: .85em;
+    padding: .5em;
+}
