@@ -1,0 +1,1 @@
+document.querySelector('input[type = "hidden"]').setAttribute("value", todaysDate);
