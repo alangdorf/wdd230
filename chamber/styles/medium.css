@@ -87,4 +87,7 @@
         box-shadow: 4px 6px 4px rgba(133, 107, 130, 0.9);
         transition: box-shadow 0.5s;
     }
+    .thanks {
+        padding: 3rem;
+    }
 }

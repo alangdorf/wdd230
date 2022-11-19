@@ -375,3 +375,9 @@ section.form {
 fieldset {
     margin: 1rem .5rem;
 }
+.thanks {
+    padding: 2rem 1rem;
+}
+.thanks h2 {
+    margin-bottom: 1.5em;
+}
