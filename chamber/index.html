@@ -17,7 +17,8 @@
     <script src="scripts/updatetime.js" defer></script>
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/currtime.js" defer></script>
-    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/weatherapi.js" defer></script>
+    
     <title>Garden Park Chamber of Commerce - Home</title>
 </head>
 <body>
@@ -67,17 +68,17 @@
         <section id="weather">
             <h2>Weather</h2>
             <div>
-                <img src="images/moon.png" alt="A moon icon">
+                <img src="images/moon.png" alt="A moon icon" id="weathericon">
                 <p><span id="temp">30</span>&#176;F</p>
             </div>
-            <p>Clear</p>
+            <p id="weatherdesc">Clear</p>
             <table>
                 <tr>
-                    <td>Wind speed:</td>
+                    <td>Wind Speed:</td>
                     <td><span id="windSpeed">7</span>mph</td>
                 </tr>
                 <tr>
-                    <td>Wind chill:</td>
+                    <td>Wind Chill:</td>
                     <td><span id="windChill"></span>&#176;F</td>
                 </tr>
             </table>

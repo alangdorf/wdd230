@@ -258,7 +258,8 @@ main p a:visited {
     justify-content: center;
 }
 #weather img {
-    max-width: 100%;
+    width: 80px;
+    padding-left: 20px;
 }
 #weather div p {
     font-weight: bold;
