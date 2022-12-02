@@ -35,4 +35,10 @@
     footer > div {
         padding: 1rem 2rem 1rem 1rem;
     }
+    #directory article>p:last-child {
+        font-size: 1rem;
+    }
+    #directory.discgrid h2 {
+        font-size: 1.5rem;
+    }
 }

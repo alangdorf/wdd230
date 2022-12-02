@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="home page for my chamber of commerce site">
+    <link rel="shortcut icon" href="images/gplogo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Laila&family=Trocchi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/exlarge.css">
+    <script src="scripts/updatetime.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/currtime.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    
+    <title>Garden Park Chamber of Commerce - Home</title>
+</head>
+<body>
+    <p id="banner">&#129309; Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    <header>
+        <div id="topBox">
+            <div id="logoTitleBox"><a href="#">
+                <img src="images/gplogo.webp" alt="A logo that says GP">
+                <h1>Garden Park<br><span class="smallh1">Chamber of Commerce</span></h1>
+            </a></div>
+            <div id="buttonBox">
+                <a href="https://twitter.com/bos_flowers?lang=en" target="_blank"><img src="images/twitter.png" alt="twitter logo"></a>
+                <button id="hamburger"><span>&#9776;</span><span>&#10005;</span></button>
+            </div>
+            <nav>
+                <ul id="topNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discovery</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p id="currTime"></p>
+    </header>
+    <div class="sec-border"></div>
+    <main class="directory">
+        <div class="item-box"><button id="grid-button" class="main-button">Grid View</button><button id="list-button" class="main-button">List View</button></div>
+        <section id="directory" class="discgrid">
+        </section>
+    </main>
+    <div class="sec-border"></div>
+    <footer>
+        <div>
+            <div id="address">
+                <img src="images/gplogo.webp" alt="A logo that says GP">
+                <p>
+                    Garden Park Chamber of Commerce<br>
+                    100 Legends Way<br>
+                    Boston, Massachusetts 02114
+                </p>
+            </div>
+            <p id="contact">
+                <a href="https://www.blaseball.wiki/w/Businessmun_Ferret" target="_blank">bmunferret@bof.ilb</a><br>
+                (555)263-2498<br>
+                <a href="https://www.blaseball.wiki/w/Boston_Garden" target="_blank">Location Site</a>
+            </p>
+        </div>
+        <p id="footer">
+            <span>&copy;2022 Garden Park Chamber</span>
+            <span class="medium"> | </span><br class="small">
+            <span>Allison Langdorf</span>
+            <span class="medium"> | </span><br class="small">
+            <span>WDD 230 Project</span>
+            <span class="medium"> | </span><br class="small">
+            <span class="updateTime"></span>
+        </p>
+    </footer>
+</body>
+</html>

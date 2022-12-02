@@ -75,4 +75,21 @@
         padding: 2rem;
         padding-bottom: 1rem;
     }
+    #directory.discgrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #directory.disclist article {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #directory.disclist br {
+        display: none;
+    }
+    #directory.disclist .brspace {
+        display: inline;
+    }
+    #directory.disclist p, #directory.disclist h2 {
+        margin: 0;
+    }
 }

@@ -1,0 +1,103 @@
+ {
+    "businesses": [
+        {
+            "name": "Margaritoville",
+            "description": "Don't waste away! Come and stay!",
+            "logo": "images/orangejuice.png",
+            "logoalt": "A clipart drawing of glass of orange juice",
+            "email": "margolava@bof.ilb",
+            "emaillink": "https://www.blaseball.wiki/w/Margarito_Nava",
+            "phone": "(555)777-4664",
+            "website": "https://www.blaseball.wiki/w/Margaritoville",
+            "level": "silver"
+        },
+        {
+            "name": "CORY-12's Rock Collection",
+            "logo": "images/rock.png",
+            "logoalt": "The rock twemoji",
+            "description": "MdA [Come and see CORY-12's cool rocks!]",
+            "email": "cory-12@yell.ilb",
+            "emaillink": "https://twitter.com/CORY_12_",
+            "phone": "(555)967-7625",
+            "website": "https://www.blaseball.wiki/w/Cory_Twelve",
+            "level": "bronze"
+        },
+        {
+            "name": "The Skeld",
+            "logo": "images/rocket.png",
+            "logoalt": "A clipart drawing of a red rocket",
+            "description": "Home of Among Us Thursdays!",
+            "email": "whatstheamongus@room.code",
+            "emaillink": "https://twitter.com/AmongUsGame",
+            "phone": "(555)563-2787",
+            "website": "https://www.innersloth.com/games/among-us/",
+            "level": "gold"
+        },
+        {
+            "name": "Backpatch Animal Walking",
+            "logo": "images/cat.jpeg",
+            "logoalt": "A clipart drawing of a black cat",
+            "description": "Let me hang out with your pet please!!1!",
+            "email": "bpro1senthal@bof.ilb",
+            "emaillink": "https://twitter.com/BOS_flowers",
+            "phone": "(555)222-7225",
+            "website": "https://www.blaseball.wiki/w/Backpatch_Rolsenthal",
+            "level": "bronze"
+        },
+        {
+            "name": "SEB CALL ME",
+            "logo": "images/telephone.png",
+            "logoalt": "The telephone twemoji",
+            "description": "they gave me ad space here to throw another line out",
+            "email": "jesstel80@stk.ilb",
+            "emaillink": "https://twitter.com/jesstelephone",
+            "phone": "(555)345-8663",
+            "website": "https://www.blaseball.wiki/w/Jessica_Telephone",
+            "level": "silver"
+        },
+        {
+            "name": "Flerret Legal Consultancy",
+            "logo": "images/scales.png",
+            "logoalt": "The balance scales twemoji",
+            "description": "Your homegrown resource for all your legal needs.",
+            "email": "bmunferret@bof.ilb",
+            "emaillink": "https://www.blaseball.wiki/w/Businessmun_Ferret",
+            "phone": "(555)263-2498",
+            "website": "https://www.blaseball.wiki/w/Boston_Garden",
+            "level": "gold"
+        },
+        {
+            "name": "Tarot Reader (not That One though)",
+            "logo": "images/crystalball.png",
+            "logoalt": "The crystal ball emoji",
+            "description": "Data Witch at heart. Specializes in sports scores.",
+            "email": "BASERUNNERSCORES@bof.ilb",
+            "emaillink": "https://twitter.com/SCORES_BASE",
+            "phone": "(555)786-2273",
+            "website": "https://www.blaseball.wiki/w/Scores_Baserunner",
+            "level": "bronze"
+        },
+        {
+            "name": "Dunn Keyes'",
+            "logo": "images/donut.png",
+            "logoalt": "The donut twemoji",
+            "description": "They can't sue me for this lol. Losers.",
+            "email": "dunkiesTM@bof.ilb",
+            "emaillink": "https://twitter.com/dunn_keyes",
+            "phone": "(555)262-2832",
+            "website": "https://www.blaseball.wiki/w/Dunn_Keyes",
+            "level": "silver"
+        },
+        {
+            "name": "The Breath Mints.",
+            "logo": "images/mint.png",
+            "logoalt": "The candy twemoji",
+            "description": "Jacob Haynes is a completely normal guy.",
+            "email": "spearmint@kcbm.ilb",
+            "emaillink": "https://twitter.com/KC_BreathMints",
+            "phone": "(555)749-7489",
+            "website": "https://jacob-haynes-facts.glitch.me/",
+            "level": "gold"
+        }
+    ]
+ }

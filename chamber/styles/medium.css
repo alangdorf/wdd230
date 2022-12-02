@@ -90,4 +90,16 @@
     .thanks {
         padding: 3rem;
     }
+    #directory {
+        gap: 1.5rem;
+    }
+    #directory.discgrid {
+        grid-template-columns: 1fr 1fr;
+    }
+    #directory.disclist article>p:last-child {
+        font-size: 1rem;
+    }
+    #directory article {
+        padding: 2rem;
+    }
 }
