@@ -336,18 +336,23 @@ fieldset {
     border-left: 5px solid #856B82;
     width: calc(100% - 18px);
 }
-input.sbs-label {
+.sbs-label input {
     border: 1px solid #4D3C4E;
     background-color: #f4fcf3;
-    width: 1.5rem;
+    font-size: 2rem;
+    display: inline;
+    margin-right: 4px;
 }
 label {
     display: block;
 }
+.sbs-label {
+    font-family: Trocchi, Georgia, serif;
+    font-size: 1.17rem;
+}
 h3.sbs-label {
-    text-align: left;
     margin: 0;
-    display: inline;
+    text-align: left;
 }
 fieldset {
     margin-bottom: 0;
