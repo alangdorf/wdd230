@@ -37,17 +37,44 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="directory.html">Directory</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="join.html">Join</a></li>
                 </ul>
             </nav>
         </div>
         <p id="currTime"></p>
     </header>
     <div class="sec-border"></div>
-    <main>
-        <section class="thanks">
-            <h2>Thank you for joining the chamber! We will get back to you within 3-5 business days.</h2>
-            <a class="item-box" href="join.html"><button class="main-button">&#8810; Go Back</button></a> 
+    <main class="contact">
+        <section id="contactinfo">
+            <div>
+                <hr>
+                <h2>Office Information</h2>
+                <p>
+                    Garden Park Chamber of Commerce<br>
+                    100 Legends Way<br>
+                    Boston, Massachusetts 02114
+                </p>
+                <p>
+                    <a href="https://www.blaseball.wiki/w/Businessmun_Ferret" target="_blank">bmunferret@bof.ilb</a><br>
+                    (555)263-2498<br>
+                    <a href="https://www.blaseball.wiki/w/Boston_Garden" target="_blank">Location Site</a>
+                </p>
+                <hr>
+            </div>
+        </section>
+        <section class="form">
+            <form>
+                <fieldset>
+                    <legend><h2>Contact Us</h2></legend>
+                    <label class="top">Name*<input type="text" name="name" required></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="email@provider.com" required></label>
+                    <label class="top">Business Name<input type="text" name="bname"></label>
+                    <label class="top">Message<textarea name="msg"></textarea></label>
+                </fieldset>
+                <div class="item-box">
+                    <input type="submit" value="Send Message" class="button main-button">
+                </div>
+            </form>
         </section>
     </main>
     <div class="sec-border"></div>

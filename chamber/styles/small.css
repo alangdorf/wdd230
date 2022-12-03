@@ -404,3 +404,13 @@ fieldset {
 .directory img {
     margin: .5rem;
 }
+#contactinfo {
+    max-width: 22rem;
+    margin: 0 auto;
+}
+#contactinfo p {
+    font-size: .95rem;
+}
+#contactinfo hr {
+    display: none;
+}
