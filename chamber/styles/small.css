@@ -101,14 +101,14 @@ footer p {
     padding: 0 1rem;
 }
 footer a {
-    color: #e3f0eb;
+    color: #f4fcf3;
 }
 footer img {
     max-width: 100px;
     margin: 10px 0 -10px 0;
 }
 footer > p {
-    background-color: #787890;
+    background-color: #4d3c4e6b;
     margin: 0;
     padding: 1.2rem;
 }
@@ -134,7 +134,8 @@ nav a {
     padding: .8rem;
 }
 nav a:hover {
-    background-color: #738996;
+    background-color: #787890;
+    color: white;
 }
 .sec-border {
     height: 6px;    
@@ -349,14 +350,14 @@ fieldset {
     text-align: left;
     margin: 0;
 }
-.sbs-listing {
-    margin-bottom: 2rem;
-}
 fieldset {
     margin-bottom: 0;
 }
 .sbs-listing ul {
-    margin: 0;
+   margin: 0;
+}
+.sbs-listing ul, .sbs-listing.first p {
+    margin-bottom: 2rem;
     padding-inline-start: 1.5rem;
 }
 .sbs-listing p {
@@ -365,7 +366,7 @@ fieldset {
 .sbs-listing li {
     margin-bottom: .3rem;
 }
-.sbs-listing.last {
+.sbs-listing.last ul {
     margin-bottom: 1rem;
 }
 section.form {
