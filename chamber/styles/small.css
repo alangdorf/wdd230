@@ -419,3 +419,10 @@ fieldset {
 #contactinfo hr {
     display: none;
 }
+#apicredit {
+    padding-top: 0;
+    font-size: .9rem;
+}
+.apicredit {
+    padding-bottom: .4rem;
+}
