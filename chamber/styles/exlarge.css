@@ -52,11 +52,11 @@
     .not-large .sbs-listing {
         display: none;
     }
-    .sbs-label {
-        margin-bottom: 1rem;
-    }
     .large .sbs-label {
         display: block;
+    }
+    .not-large .sbs-label {
+        margin-bottom: 1rem;
     }
     main.form, main.contact {
         display: grid;

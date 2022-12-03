@@ -336,37 +336,36 @@ fieldset {
     border-left: 5px solid #856B82;
     width: calc(100% - 18px);
 }
-.sbs-label {
-    display: grid;
-    grid-template-columns: 1.5em auto;
-    grid-gap: 8px;
-    -webkit-appearance: none;
-}
-.sbs-label input {
+input.sbs-label {
     border: 1px solid #4D3C4E;
     background-color: #f4fcf3;
+    width: 1.5rem;
 }
-.sbs-label h3 {
+label {
+    display: block;
+}
+h3.sbs-label {
     text-align: left;
     margin: 0;
+    display: inline;
 }
 fieldset {
     margin-bottom: 0;
 }
-.sbs-listing ul {
+ul.sbs-listing {
    margin: 0;
+   padding-inline-start: 1.5rem;
 }
-.sbs-listing ul, .sbs-listing.first p {
+ul.sbs-listing, p.sbs-listing.first {
     margin-bottom: 2rem;
-    padding-inline-start: 1.5rem;
 }
-.sbs-listing p {
+p.sbs-listing {
     margin: .7rem;
 }
-.sbs-listing li {
+ul.sbs-listing li {
     margin-bottom: .3rem;
 }
-.sbs-listing.last ul {
+ul.sbs-listing.last {
     margin-bottom: 1rem;
 }
 section.form {
