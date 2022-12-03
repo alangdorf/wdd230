@@ -32,7 +32,7 @@ strong {
 header, footer {
     width: 100%;
     background-color: #856B82;
-    color: #EDF7E9;
+    color: #f4fcf3;
     text-align: center;
 }
 header {
@@ -49,7 +49,7 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
-    color: #EDF7E9;
+    color: #f4fcf3;
     text-decoration: none;
 }
 #logoTitleBox img {
@@ -101,7 +101,7 @@ footer p {
     padding: 0 1rem;
 }
 footer a {
-    color: #CFE3DB;
+    color: #e3f0eb;
 }
 footer img {
     max-width: 100px;
@@ -130,7 +130,7 @@ nav ul.open {
 }
 nav a {
     display: block;
-    color: #EDF7E9;
+    color: #f4fcf3;
     padding: .8rem;
 }
 nav a:hover {
@@ -179,10 +179,10 @@ article h2 {
     grid-gap: 1rem;
 }
 main p a {
-    color: #738996;
+    color: #2d6e9a;
 }
 main p a:visited {
-    color: #787890;
+    color: #3e3e98;
 }
 
 #hamburger span:nth-child(1) {
@@ -207,7 +207,7 @@ main p a:visited {
 }
 
 #banner {
-    color: #EDF7E9;
+    color: #f4fcf3;
     background-color: #787890;
     text-align: center;
     font-size: .9rem;
@@ -231,7 +231,7 @@ main p a:visited {
     position: absolute;
     top: 1em;
     width: 100%;
-    color: #EDF7E9;
+    color: #f4fcf3;
     background-color: rgba(115, 137, 150, 0.9);
     margin: 0 auto;
     padding: .6em 0;
