@@ -22,7 +22,7 @@ h1, .logotype {
 }
 h2, h3, h4, h5, h6, .headertype {
     font-family: Solway, serif;
-    font-weight: normal;
+    font-weight: bold;
 }
 section:nth-of-type(3n + 1) h2 {
     color: #03A2AB;
