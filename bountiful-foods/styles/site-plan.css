@@ -1,0 +1,72 @@
+html {
+    background-color: #CAF3F1;
+}
+body {
+    font-family: Nunito, sans-serif;
+    background-color: #f5faf9;
+    color: #30324A;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 3px 3px rgba(48,50,74,0.3);
+}
+main {
+    padding: 1rem;
+}
+section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1, .logotype {
+    font-family: Gorditas, cursive;
+}
+h2, h3, h4, h5, h6, .headertype {
+    font-family: Solway, serif;
+    font-weight: normal;
+}
+section:nth-of-type(3n + 1) h2 {
+    color: #03A2AB;
+}
+section:nth-of-type(3n + 2) h2 {
+    color: #E6AD32;
+}
+section:nth-of-type(3n) h2 {
+    color: #DA3442;
+}
+
+header {
+    background-color: #DA3442;
+    color: #f5faf9;
+    text-align: center;
+    padding: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #30324A;
+    padding: 1rem;
+}
+.bg2 {
+    background-color: #CAF3F1;
+}
+.text {
+    background-color: #30324A;
+}
+.accent1 {
+    background-color: #03A2AB;
+}
+.accent2 {
+    background-color: #E6AD32;
+}
+.accent3 {
+    background-color: #DA3442;
+}
+.text, .accent1, .accent2, .accent3 {
+    color: #f5faf9;
+}
+
+.paratype {
+    font-family: Nunito, sans-serif;
+}
