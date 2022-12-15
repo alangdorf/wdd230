@@ -105,6 +105,9 @@ h2 {
 .fresh button {
     background-color: #AA730E;
 }
+.aboutus section {
+    background-color: #8FCBCC;
+}
 label, input, select, textarea {
     display: block;
 }
