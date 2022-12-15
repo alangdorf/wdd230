@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gorditas:wght@700&family=Nunito:ital,wght@0,400;0,700;1,400;1,700&family=Solway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/fresh.js" defer></script>
+    <script src="scripts/lastmodified.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="topbox">
+            <div class="logobox">
+                <img src="images/logoflip.png" alt="decorative illustration of a branch with berries on it">
+                <h1>Bountiful Foods</h1>
+                <img src="images/logo.PNG" alt="decorative illustration of a branch with berries on it">
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Fresh</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="fresh">
+        <section>
+            <h2>Create your drink!</h2>
+            <article id="freshform">
+                <label>Name<input type="text" name="name" id="name" required></label>
+                <label>E-mail<input type="email" name="email" id="email" required></label>
+                <label>Phone Number<input type="tel" name="phone" id="phone" required></label>
+                <label>Fruit 1<select name="fruit1" id="fruit1" required>
+                    <option value="">Select One</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Apricot">Apricot</option>
+                    <option value="Avocado">Avocado</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Blackberry">Blackberry</option>
+                    <option value="Blueberry">Blueberry</option>
+                    <option value="Cherry">Cherry</option>
+                    <option value="Dragonfruit">Dragonfruit</option>
+                    <option value="Durian">Durian</option>
+                    <option value="Feijoa">Feijoa</option>
+                    <option value="Fig">Fig</option>
+                    <option value="Gooseberry">Gooseberry</option>
+                    <option value="Grape">Grape</option>
+                    <option value="GreenApple">Green Apple</option>
+                    <option value="Guava">Guava</option>
+                    <option value="Kiwi">Kiwi</option>
+                    <option value="Lemon">Lemon</option>
+                    <option value="Lime">Lime</option>
+                    <option value="Lingonberry">Lingonberry</option>
+                    <option value="Lychee">Lychee</option>
+                    <option value="Mango">Mango</option>
+                    <option value="Melon">Melon</option>
+                    <option value="Morus">Morus</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Papaya">Papaya</option>
+                    <option value="Passionfruit">Passionfruit</option>
+                    <option value="Pear">Pear</option>
+                    <option value="Persimmon">Persimmon</option>
+                    <option value="Pineapple">Pineapple</option>
+                    <option value="Pitahaya">Pitahaya</option>
+                    <option value="Plum">Plum</option>
+                    <option value="Pomegranate">Pomegranate</option>
+                    <option value="Raspberry">Raspberry</option>
+                    <option value="Strawberry">Strawberry</option>
+                    <option value="Tangerine">Tangerine</option>
+                    <option value="Tomato">Tomato</option>
+                    <option value="Watermelon">Watermelon</option>
+                </select></label>
+                <label>Fruit 2<select name="fruit2" id="fruit2" required>
+                    <option value="">Select One</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Apricot">Apricot</option>
+                    <option value="Avocado">Avocado</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Blackberry">Blackberry</option>
+                    <option value="Blueberry">Blueberry</option>
+                    <option value="Cherry">Cherry</option>
+                    <option value="Dragonfruit">Dragonfruit</option>
+                    <option value="Durian">Durian</option>
+                    <option value="Feijoa">Feijoa</option>
+                    <option value="Fig">Fig</option>
+                    <option value="Gooseberry">Gooseberry</option>
+                    <option value="Grape">Grape</option>
+                    <option value="GreenApple">Green Apple</option>
+                    <option value="Guava">Guava</option>
+                    <option value="Kiwi">Kiwi</option>
+                    <option value="Lemon">Lemon</option>
+                    <option value="Lime">Lime</option>
+                    <option value="Lingonberry">Lingonberry</option>
+                    <option value="Lychee">Lychee</option>
+                    <option value="Mango">Mango</option>
+                    <option value="Melon">Melon</option>
+                    <option value="Morus">Morus</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Papaya">Papaya</option>
+                    <option value="Passionfruit">Passionfruit</option>
+                    <option value="Pear">Pear</option>
+                    <option value="Persimmon">Persimmon</option>
+                    <option value="Pineapple">Pineapple</option>
+                    <option value="Pitahaya">Pitahaya</option>
+                    <option value="Plum">Plum</option>
+                    <option value="Pomegranate">Pomegranate</option>
+                    <option value="Raspberry">Raspberry</option>
+                    <option value="Strawberry">Strawberry</option>
+                    <option value="Tangerine">Tangerine</option>
+                    <option value="Tomato">Tomato</option>
+                    <option value="Watermelon">Watermelon</option>
+                </select></label>
+                <label>Fruit 3<select name="fruit3" id="fruit3" required>
+                    <option value="">Select One</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Apricot">Apricot</option>
+                    <option value="Avocado">Avocado</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Blackberry">Blackberry</option>
+                    <option value="Blueberry">Blueberry</option>
+                    <option value="Cherry">Cherry</option>
+                    <option value="Dragonfruit">Dragonfruit</option>
+                    <option value="Durian">Durian</option>
+                    <option value="Feijoa">Feijoa</option>
+                    <option value="Fig">Fig</option>
+                    <option value="Gooseberry">Gooseberry</option>
+                    <option value="Grape">Grape</option>
+                    <option value="GreenApple">Green Apple</option>
+                    <option value="Guava">Guava</option>
+                    <option value="Kiwi">Kiwi</option>
+                    <option value="Lemon">Lemon</option>
+                    <option value="Lime">Lime</option>
+                    <option value="Lingonberry">Lingonberry</option>
+                    <option value="Lychee">Lychee</option>
+                    <option value="Mango">Mango</option>
+                    <option value="Melon">Melon</option>
+                    <option value="Morus">Morus</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Papaya">Papaya</option>
+                    <option value="Passionfruit">Passionfruit</option>
+                    <option value="Pear">Pear</option>
+                    <option value="Persimmon">Persimmon</option>
+                    <option value="Pineapple">Pineapple</option>
+                    <option value="Pitahaya">Pitahaya</option>
+                    <option value="Plum">Plum</option>
+                    <option value="Pomegranate">Pomegranate</option>
+                    <option value="Raspberry">Raspberry</option>
+                    <option value="Strawberry">Strawberry</option>
+                    <option value="Tangerine">Tangerine</option>
+                    <option value="Tomato">Tomato</option>
+                    <option value="Watermelon">Watermelon</option>
+                </select></label>
+                <label>Special Instructions (optional)<textarea name="additional"></textarea></label>
+                <div class="button-box"><button id="submitbtn">Order Drink</button></div>
+            </article>
+            <article id="receipt"></article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2022 Allison Langdorf - WDD230 | Last updated <span id="updateTime"></span></p>
+    </footer>
+</body>
+</html>

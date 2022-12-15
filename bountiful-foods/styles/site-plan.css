@@ -25,13 +25,13 @@ h2, h3, h4, h5, h6, .headertype {
     font-weight: bold;
 }
 section:nth-of-type(3n + 1) h2 {
-    color: #03A2AB;
+    color: #0C636E;
 }
 section:nth-of-type(3n + 2) h2 {
-    color: #E6AD32;
+    color: #AA730E;
 }
 section:nth-of-type(3n) h2 {
-    color: #DA3442;
+    color: #B42D38;
 }
 
 header {
@@ -57,13 +57,31 @@ td {
 .accent1 {
     background-color: #03A2AB;
 }
+.accent1l {
+    background-color: #8FCBCC;
+}
+.accent1d {
+    background-color: #0C636E;
+}
 .accent2 {
     background-color: #E6AD32;
+}
+.accent2l {
+    background-color: #EDC56E;
+}
+.accent2d {
+    background-color: #AA730E;
 }
 .accent3 {
     background-color: #DA3442;
 }
-.text, .accent1, .accent2, .accent3 {
+.accent3l {
+    background-color: #F2858B;
+}
+.accent3d {
+    background-color: #B42D38;
+}
+.dark {
     color: #f5faf9;
 }
 

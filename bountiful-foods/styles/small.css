@@ -7,8 +7,150 @@ body {
 
 h1 {
     font-family: Gorditas, cursive;
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 0;
 }
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6, nav ul a {
     font-family: Solway, serif;
 }
 
+header {
+    background-color: #8FCBCC;
+    box-shadow: 0 3px 3px 0 rgba(48,50,74,0.3);
+}
+.topbox {
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logobox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: .2rem;
+    align-items: center;
+}
+.logobox img {
+    width: 2rem;
+    height: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin-inline-start: 0;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.2fr;
+}
+
+nav ul a {
+    text-decoration: none;
+    text-align: center;
+    color: #f5faf9;
+    font-size: 1.2rem;
+    padding: .8rem;
+    display: block;
+}
+nav ul li:nth-of-type(1) a {
+    background-color: #B42D38;
+}
+nav ul li:nth-of-type(2) a {
+    background-color: #AA730E;
+}
+nav ul li:nth-of-type(3) a {
+    background-color: #0C636E;
+}
+
+.button-box {
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+button {
+    border: none;
+    box-shadow: 0 0 1.5px 1.5px rgba(48,50,74,0.3);
+    font-family: Solway, serif;
+    font-size: 1.2rem;
+    padding: .7rem;
+    color: #f5faf9;
+}
+
+main img {
+    width: 100%;
+    box-shadow: 0 0 1.5px 1.5px rgba(48,50,74,0.3);
+}
+section {
+    max-width: 450px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+.home section {
+    background-color: #F2858B;
+}
+.home button {
+    background-color: #B42D38;
+}
+.fresh section {
+    background-color: #EDC56E;
+}
+h2 {
+    text-align: center;
+    margin: 1rem;
+}
+.fresh button {
+    background-color: #AA730E;
+}
+label, input, select, textarea {
+    display: block;
+}
+label {
+    margin: 1rem auto 0 auto;
+    max-width: 400px;
+}
+input, select, textarea {
+    margin: .1rem;
+    background-color: #f5faf9;
+    color: #28293d;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #AA730E;
+    height: 2.2rem;
+    padding: 0 .4rem;
+}
+#receipt {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f5faf9;
+    border: 6px dotted #EDC56E;
+    border-style: dotted none;
+    display: none;
+    padding: .9rem 1.2rem;
+    margin: 2rem auto 1.2rem auto;
+    box-sizing: border-box;
+}
+#receipt.display {
+    display: block;
+}
+td {
+    padding: .3rem .2rem;
+}
+tr td:nth-child(1) {
+    text-align: right;
+}
+
+.home p {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+footer {
+    background-color: #8FCBCC;
+    box-shadow: 0 -3px 3px 0 rgba(48,50,74,0.3);
+    text-align: center;
+    padding: 1px;
+}
